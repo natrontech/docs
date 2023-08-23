@@ -1,7 +1,10 @@
 <p align="center">
     <a href="https://natron.io/">
-        <img height="200px" src="docs/assets/images/natron_logo_white.png#gh-light-mode-only" />
-        <img height="200px" src="docs/assets/images/natron_logo_black.png#gh-dark-mode-only" />
+        <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/images/natron_logo_white.png">
+        <source media="(prefers-color-scheme: light)" srcset="docs/assets/images/natron_logo_dark.png">
+        <img alt="Natron Tech Logo" src="docs/assets/images/natron_logo_black.png">
+        </picture>
     </a>
 </p>
 
