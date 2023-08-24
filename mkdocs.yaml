@@ -22,8 +22,8 @@ nav:
       - Kubernetes Access:
         - Connect Client: access/teleport/k8s-client.md
         - OpenLens: access/teleport/k8s-openlens.md
-      #- Database Access:
-      #  - pgAdmin: access/teleport/db-pgadmin.md
+      - Database Access:
+        - pgAdmin: access/teleport/db-pgadmin.md
     - OpenVPN: 
       - access/openvpn/index.md
 
