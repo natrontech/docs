@@ -12,6 +12,7 @@ Based on the authentication method you will need to sign in with your GitHub, Go
 
 ### Local account
 You will receive a setup link to create a local account.
+There you will be asked to set a password for your account and register a second factor.
 
 ### GitHub or Google account
 You will be redirected to the GitHub or Google login page.
