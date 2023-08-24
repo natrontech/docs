@@ -18,19 +18,28 @@ nav:
   - Remote Access:
     - Teleport: 
       - access/teleport/index.md
+      - Authentication:
+        - First Login: access/teleport/first-login.md
       - Client Installation: access/teleport/client-installation.md
       - Kubernetes Access:
         - Connect Client: access/teleport/k8s-client.md
         - OpenLens: access/teleport/k8s-openlens.md
       - Database Access:
+        - General: access/teleport/db-general.md
         - pgAdmin: access/teleport/db-pgadmin.md
-    - OpenVPN: 
+        - mySQL Workbench: access/teleport/db-mysql-wb.md
+      - Web Access:
+        - General: access/teleport/web-general.md
+    - OpenVPN:
       - access/openvpn/index.md
 
 # Configuration
 theme:
   favicon: assets/images/favicon.png
-  logo: assets/images/icon_dark.png
+  #logo: assets/images/icon_dark.png
+  custom_dir: overrides
+  logo_dark_mode: assets/images/icon_white.png
+  logo_light_mode: assets/images/icon_dark.png
   name: material
   language: en
   font:
@@ -53,14 +62,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: white
-      accent: indigo
+      accent: blue
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: indigo
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -77,6 +86,10 @@ extra:
       link: https://github.com/natrontech
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/natron-tech
+
+# Extra CSS
+extra_css:
+  - stylesheets/extra.css
 
 # Markdown extensions
 markdown_extensions:
@@ -96,3 +109,5 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - footnotes
+  - toc:
+      permalink: true

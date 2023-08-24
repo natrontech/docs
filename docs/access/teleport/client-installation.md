@@ -1,6 +1,6 @@
 # Client Installation
 
-There are multiple Teleport Clients available for download:
+There are multiple Teleport Clients available for download. A client is required to access Kubernetes clusters and databases.
 
 ## Teleport Connect
 Teleport Connect is a desktop application that allows you to connect to a Teleport cluster and access resources. It is available for Linux, macOS, and Windows.
@@ -22,5 +22,5 @@ It includes the following commands:
 
   - `tsh login` - log in to a Teleport cluster
   - `tsh ssh` - connect to a node or a cluster
+  - `tsh db` - connect to a database
   - `tsh status` - show the status of the Teleport cluster
-
