@@ -1,6 +1,6 @@
-# Accessing PostgreSQL using the Teleport Connect Client
+# Accessing PostgreSQL using pgAdmin
 
-You can use the Teleport Connect client to access PostgreSQL Databases.
+You can use the Teleport Connect client to access PostgreSQL Databases using pgAdmin.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ You can use the Teleport Connect client to access PostgreSQL Databases.
 - pgAdmin installed on your local machine. See [pgAdmin Download](https://www.pgadmin.org/download/).
 
 
-## Accessing a PostgreSQL Database
+## Client Setup
 Launch the Teleport Connect Client and sign in with your account.
 
 Choose the register `Databases` and select `Connect` and the username to connect to the desired PostgreSQL Database server.
@@ -21,7 +21,7 @@ After that you will see the forwarded port in the Teleport Connect Client.
 
 ![Teleport Connect Database](../../assets/images/teleport_connect_database2.png)
 
-## Accessing the PostgreSQL Database using pgAdmin
+## pgAdmin Connection
 
 Launch pgAdmin and register a new server.
 

@@ -18,13 +18,19 @@ nav:
   - Remote Access:
     - Teleport: 
       - access/teleport/index.md
+      - Authentication:
+        - First Login: access/teleport/first-login.md
       - Client Installation: access/teleport/client-installation.md
       - Kubernetes Access:
         - Connect Client: access/teleport/k8s-client.md
         - OpenLens: access/teleport/k8s-openlens.md
       - Database Access:
+        - General: access/teleport/db-general.md
         - pgAdmin: access/teleport/db-pgadmin.md
-    - OpenVPN: 
+        - mySQL Workbench: access/teleport/db-mysql-wb.md
+      - Web Access:
+        - General: access/teleport/web-general.md
+    - OpenVPN:
       - access/openvpn/index.md
 
 # Configuration
@@ -103,3 +109,5 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - footnotes
+  - toc:
+      permalink: true
