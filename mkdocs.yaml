@@ -10,16 +10,27 @@ repo_name: natrontech/docs
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2023 Natron Tech GmbH
+copyright: Copyright &copy; 2023 Natron Tech AG
 
 # Page tree
 nav:
   - Home: index.md
+  - Remote Access:
+    - Teleport: 
+      - access/teleport/index.md
+      - Client Installation: access/teleport/client-installation.md
+      - Kubernetes Access:
+        - Connect Client: access/teleport/k8s-client.md
+        - OpenLens: access/teleport/k8s-openlens.md
+      #- Database Access:
+      #  - pgAdmin: access/teleport/db-pgadmin.md
+    - OpenVPN: 
+      - access/openvpn/index.md
 
 # Configuration
 theme:
   favicon: assets/images/favicon.png
-  logo: assets/images/favicon.png
+  logo: assets/images/icon_dark.png
   name: material
   language: en
   font:
@@ -44,14 +55,14 @@ theme:
       primary: white
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
       accent: indigo
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to light mode
 
 # Plugins
@@ -66,8 +77,6 @@ extra:
       link: https://github.com/natrontech
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/natron-tech
-
-
 
 # Markdown extensions
 markdown_extensions:
