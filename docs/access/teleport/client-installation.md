@@ -7,7 +7,7 @@ Teleport Connect is a desktop application that allows you to connect to a Telepo
 
 [Download Teleport Connect :fontawesome-solid-download:](https://goteleport.com/download/#install-links){ .md-button }
 
-!!! info "Make sure to select Teleport Connect from the dropdown menu"
+!!! info "Make sure to select `Teleport Connect` from the dropdown menu"
     
 
 <figure markdown>
@@ -24,3 +24,10 @@ It includes the following commands:
   - `tsh ssh` - connect to a node or a cluster
   - `tsh db` - connect to a database
   - `tsh status` - show the status of the Teleport cluster
+
+!!! info "Make sure to select `tsh client` from the dropdown menu"
+
+<figure markdown>
+  ![Teleport](../../assets/images/teleport_tsh_download.png)
+</figure>
+
