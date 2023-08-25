@@ -33,3 +33,7 @@ Launch pgAdmin and register a new server.
 
 ![Teleport Connect Database](../../assets/images/teleport_connect_pgadmin.png)
 
+Once you connect to the server, you will see a password prompt.
+Just press `OK` to connect and do not enter a password.
+
+![Alt text](../../assets/images/teleport_connect_pgadmin2.png)

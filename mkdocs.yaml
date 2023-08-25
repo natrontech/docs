@@ -20,6 +20,7 @@ nav:
       - access/teleport/index.md
       - Authentication:
         - First Login: access/teleport/first-login.md
+        - Passwordless Login: access/teleport/passwordless-login.md
       - Client Installation: access/teleport/client-installation.md
       - Kubernetes Access:
         - Connect Client: access/teleport/k8s-client.md
