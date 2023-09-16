@@ -30,7 +30,7 @@ If you have limited access to Kubernetes namespaces, you can enter them in the `
 
 ## Metrics inside OpenLens
 
-To view metrics inside OpenLens, you need to enable the `Metrics` option inside the OpenLens settings and set the `Metrics Server URL` to `monitoring/prometheus-operated:9090`.
+To view metrics inside OpenLens, you need to enable the `Metrics` option inside the OpenLens settings and set the `Metrics Server URL` to `monitoring-system/prometheus-operated:9090`.
 
 ![Teleport Connect K8s](../../assets/images/teleport_connect_k8s_openlens_metrics.png)
 
