@@ -16,6 +16,7 @@ Teleport Connect is a desktop application that allows you to connect to a Telepo
 
 
 ## TSH Client
+
 The TSH Client is a command line tool that allows you to connect to a Teleport cluster and access resources. It is available for Linux, macOS, and Windows.
 
 It includes the following commands:
@@ -23,11 +24,10 @@ It includes the following commands:
   - `tsh login` - log in to a Teleport cluster
   - `tsh ssh` - connect to a node or a cluster
   - `tsh db` - connect to a database
+  - `tsh kube` - connect to a Kubernetes cluster
   - `tsh status` - show the status of the Teleport cluster
 
-!!! info "Make sure to select `tsh client` from the dropdown menu"
+[Install instructinos TSH Client :fontawesome-solid-download:](https://goteleport.com/docs/connect-your-client/tsh/#installing-tsh){ .md-button }
 
-<figure markdown>
-  ![Teleport](../../assets/images/teleport_tsh_download.png)
-</figure>
+
 
