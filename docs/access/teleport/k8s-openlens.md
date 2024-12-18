@@ -9,6 +9,7 @@ You can use the Teleport Connect client to access Kubernetes clusters with OpenL
 - OpenLens installed on your local machine. See [OpenLens Releases](https://github.com/MuhammedKalkan/OpenLens/releases) for download.
 
 ## Configuring OpenLens to use Teleport Connect
+
 Launch the Teleport Connect Client and sign in with your account.
 
 Choose the register `Kubes` and select `Connect` to connect to the Kubernetes cluster.
